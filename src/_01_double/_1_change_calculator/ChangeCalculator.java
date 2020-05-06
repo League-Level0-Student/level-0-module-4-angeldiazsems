@@ -22,8 +22,11 @@ int juvenal2 = Integer.parseInt(input2);
 String input3 = JOptionPane.showInputDialog("How many quarters do you have?");
 int juvenal3= Integer.parseInt(input3);
 		// Calculate how much money the user has.  Hint: Use a double variable 
-double hello = input+input2+input3;
+double hello = juvenal*.05+juvenal2*.10+juvenal3*.25;
 		// Tell the user how much money they have in dollars and cents format (e.g. $6.75)
+
+JOptionPane.showMessageDialog(null, "you have "+hello);
+
 
 	}
 }
