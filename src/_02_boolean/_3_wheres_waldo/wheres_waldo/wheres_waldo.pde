@@ -17,33 +17,15 @@ void setup() {
 void draw() {
       // Use this print statement to find out the coordinates of Waldo when you press the mouse
      println("X: " + mouseX + " Y: " + mouseY); 
-ellipse(65,87,90,34);
       // If the mouse is on Waldo, print “Waldo found!”
       
-  int topx = 755;
-  int topy = 956;
-  int botx =773;
-  int boty =  640;
-  int leftx =745;
-  int lefty = 608;
-  int rightx= 778;
-  int righty = 613;
-  
-  
-  if(mouseX > 755&& mouseY >956){
-  if(mouseX > 775&& mouseY < 640)
-  if(mouseX > 745&& mouseY < 608)
-  if(mouseX >778&& mouseY <613)
-  
-  print("frog is found");
-  
-  }
-  
-//if(mouseX642&&mouseY== 77){
-  
-// print("waldo found"); 
-//}
-
+    if(mouseX==645&&mouseY== 75){
+  print("waldo is found"); 
+    }
+      
+      
+      
+      
 
 
 /**********  Now to add the sounds. You will need to uncomment all the code and import the Minim library ********/
