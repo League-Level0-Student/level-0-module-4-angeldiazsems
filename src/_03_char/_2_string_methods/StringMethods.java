@@ -53,7 +53,7 @@ if(input.charAt(i)=='r')	{
 	System.out.println("r is at index "+i);
 	
 
-	 
+} 
 	if(input.charAt(i)=='o') {
 	
 	
@@ -62,7 +62,26 @@ if(input.charAt(i)=='r')	{
 	System.out.println("o is at index "+i);
 
 	}
-	}		
+			
+	
+	
+	
+	if(input.charAt(i)=='b') {
+		
+		System.out.println("b is at index " +i);
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	}
